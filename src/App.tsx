@@ -1,8 +1,6 @@
+import Routers from "./routers";
+
 function App() {
-  return (
-    <>
-      <div></div>
-    </>
-  );
+  return <Routers />;
 }
 export default App;
