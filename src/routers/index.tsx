@@ -1,4 +1,4 @@
-import Base from '@/pages/Base';
+import Layout from '@/components/Layout';
 import NotFound from '@/pages/Error/NotFound';
 import Login from '@/pages/Login';
 import { Navigate, useRoutes } from 'react-router-dom';
@@ -11,7 +11,7 @@ export default () => {
     },
     {
       path: '/home',
-      element: <Base />
+      element: <Layout />
     },
     {
       path: '/login',
